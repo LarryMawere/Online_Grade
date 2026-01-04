@@ -42,3 +42,9 @@ Defines rules like:
 nullable = false
 
 unique = true
+
+
+###: Repository Layer
+- Created UserRepository
+- Extended JpaRepository for database access
+- Added findByUsername method
