@@ -1,4 +1,4 @@
-package com.school.gradeapp.repository;
+package repository;
 
 import com.school.gradeapp.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
