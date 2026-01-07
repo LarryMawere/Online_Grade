@@ -48,3 +48,14 @@ unique = true
 - Created UserRepository
 - Extended JpaRepository for database access
 - Added findByUsername method
+
+### Step: Sample Data
+- Added CommandLineRunner
+- Inserted test admin user on startup
+- Verified UserRepository works
+
+## Step: Basic Security
+
+- Added Spring Security configuration
+- Enabled login for all endpoints
+- Added BCrypt password encryption
